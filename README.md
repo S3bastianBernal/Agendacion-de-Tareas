@@ -47,7 +47,7 @@ Este proyecto es un **Gestor de Tareas** que permite a los usuarios crear, leer,
 
 ### Clonar el repositorio
 ```bash
-$ git clone <URL_DEL_REPOSITORIO>
+$ git clone https://github.com/S3bastianBernal/Agendacion-de-Tareas
 ```
 
 ### Backend: FastAPI
