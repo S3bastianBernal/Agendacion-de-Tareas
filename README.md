@@ -157,6 +157,12 @@ El archivo JSON debe tener el siguiente formato:
 
 ---
 
+## Interfaz de usuario
+
+¡Aquí puedes ver la interfaz de la aplicación!
+
+![Interfaz de usuario](source/Captura%20de%20pantalla%202024-12-16%20191351.png)
+
 ## Autor
 - **Sebastian Daniel Bernal Forero**
 
