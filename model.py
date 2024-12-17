@@ -1,5 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, Enum, ForeignKey, TIMESTAMP
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String, Text, Enum, TIMESTAMP
 from datetime import datetime
 from database import Base
 
@@ -12,6 +11,3 @@ class Tarea(Base):
     descripcion = Column(Text, nullable=True)  
     estado = Column(Enum('pendiente', 'en_progreso', 'completada'), default='pendiente')  
     fecha_creacion = Column(TIMESTAMP, default=datetime.now)  
-
-
-    lista = relationship("Lista", back_populates="tareas")

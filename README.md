@@ -162,6 +162,8 @@ El archivo JSON debe tener el siguiente formato:
 
 ![Interfaz de usuario](source/Captura%20de%20pantalla%202024-12-16%20191351.png)
 
+[![Ver el video](https://img.youtube.com/vi/KZR8g6W_E2c/0.jpg)](https://youtu.be/KZR8g6W_E2c)
+
 ## Autor
 - **Sebastian Daniel Bernal Forero**
 
