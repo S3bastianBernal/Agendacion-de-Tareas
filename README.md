@@ -47,7 +47,7 @@ Este proyecto es un **Gestor de Tareas** que permite a los usuarios crear, leer,
 
 ### Clonar el repositorio
 ```bash
-$ git clone <URL_DEL_REPOSITORIO>
+$ git clone https://github.com/S3bastianBernal/Agendacion-de-Tareas
 ```
 
 ### Backend: FastAPI
@@ -122,11 +122,10 @@ El archivo JSON debe tener el siguiente formato:
 ## Estructura del Proyecto
 
 ```plaintext
-|-- backend/
-|   |-- main.py  # Archivo principal del servidor FastAPI
-|   |-- models.py  # Definición de las estructuras de datos
-|   |-- requirements.txt  # Dependencias del proyecto
-|
+|   main.py  # Archivo principal del servidor FastAPI
+|   models.py  # Definición de las estructuras de datos
+|   requirements.txt  # Dependencias del proyecto
+|   pydantic_models.py Modelo para poder realizar las peticiones que alteren los datos de la db
 |-- frontend/
 |   |-- index.html  # Interfaz principal
 |   |-- style.css  # Estilos de la aplicación
